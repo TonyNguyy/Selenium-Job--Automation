@@ -3,12 +3,14 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time 
 
-ACCOUNT_EMAIL = "tonynguyy@gmail.com"
+ACCOUNT_EMAIL = "your-email"
 ACCOUNT_PASSWORD ="#"
 
 
-chrome_webdriver = "/Users/tonynguyen/Desktop/ChromeDriver/chromedriver"
+chrome_webdriver = "chrome-webdriver-path"
 driver = webdriver.Chrome(chrome_webdriver)
+
+# Filtering using LinkedIn Filter Options
 driver.get("https://www.linkedin.com/jobs/search/?currentJobId=3623654673&f_E=1%2C2&f_TPR=r604800&geoId=100025096&keywords=developer&location=Toronto%2C%20Ontario%2C%20Canada&refresh=true&start=50")
 
 
